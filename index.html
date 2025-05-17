@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Restaurant Wishlist</h1>
+    <form id="restaurant-form">
+        <label>
+            Restaurant Name:
+            <input type="text" id="name" required>
+        </label>
+        <label>
+            Menu URL:
+            <input type="url" id="menu" required>
+        </label>
+        <label>
+            Reservation URL:
+            <input type="url" id="reservation" required>
+        </label>
+        <button type="submit">Add</button>
+    </form>
+    <ul id="restaurant-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
